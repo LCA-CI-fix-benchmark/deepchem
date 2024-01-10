@@ -1,11 +1,5 @@
 name: Test for documents
-on:
-  push: # ci work when pushing master branch
-    branches:
-      - master
-  pull_request: # ci work when creating a PR to master branch
-    branches:
-      - master
+on: push
 jobs:
   docs-build:
     runs-on: ubuntu-latest
